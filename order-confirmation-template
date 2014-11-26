@@ -5,6 +5,7 @@
 {% if requires_shipping and shipping_address %}
 <p><b>Shipping address</b><br />
 {{ shipping_address.name }}<br />
+{{ shipping_address.company }}
 {{ shipping_address.street }}<br />
 {{ shipping_address.city }}<br />
 {{ shipping_address.province }}
