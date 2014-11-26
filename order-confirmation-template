@@ -1,3 +1,4 @@
+{{ 'logo.png' | asset_url | img_tag }} 
 <p>Thank you for placing your order with {{ shop_name }}!</p>
 <p>This email is to confirm your recent order.</p>
 <p>Date {{ date | date: "%m/%d/%Y" }}</p>
